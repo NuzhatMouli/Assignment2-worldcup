@@ -11,7 +11,6 @@ body{
     border-radius: 15px;
     width: 85%;
     height: 500px;
-    justify-content: center;
     margin-top: 90px;
     margin-left: 100px;
     margin-right: 120px;
@@ -32,3 +31,13 @@ body{
     font-size: 370%;
     margin-top: 100px;;
     color: azure}
+
+        .paragraph-1 {
+            position: relative;
+            top: 100%;
+            right: auto;
+            transform: translate(-50%, -50%);
+            font-size: medium;
+            color: azure;
+            font-weight: 550;
+        }
