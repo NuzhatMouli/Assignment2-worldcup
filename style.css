@@ -74,16 +74,33 @@ body{
     width: 100%;
 }
 .container-2{
-    display: inline-block;
-    text-decoration: none;
-    box-sizing: content-box;
+    display: flex;
+flex-direction:column;
+background-color: black;
+width:20%;
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 10px 10px 30px rgb(237, 164, 164);
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+
+
 }
-
-
-.nav-button{
-    
-    text-align: left;
+    .upcoming .groups .blogs {
+        size: 2vw;
+text-align: left;
     margin-left: 110px;
+    text-decoration: none;
+    width: 100%;
+    color: rgb(171, 171, 216);
+    justify-content: space-between;
+        align-items: stretch;
+    transform: translate(-50%, -50%)
+    
 
         
 }
