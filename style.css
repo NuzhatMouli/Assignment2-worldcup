@@ -71,7 +71,12 @@ body{
     margin-left: 27%;
     top:79%;
     left: auto;
-    width: 100%;
+    width: 0
+}
+.button :hover{
+    background-color:lightsteelblue;
+        color: #272727;
+    
 }
 .container-2{
     display: flex;
@@ -82,28 +87,18 @@ width:20%;
     margin-top: 5%;
     margin-right: 8%;
     margin-bottom: 5%;
-    padding: 20px 20px 20px 20px;
-    box-shadow: 10px 10px 30px rgb(237, 164, 164);
-    border-radius: 8px;
+    padding: 30px 30px 20px 20px;
     text-align: center;
-    position: relative;
+    gap: 15px;
+  border-radius: 5px;}
 
-
-}
-    .upcoming .groups .blogs {
-        size: 2vw;
-text-align: left;
-    margin-left: 110px;
+.nav-button {
     text-decoration: none;
-    width: 100%;
-    color: rgb(171, 171, 216);
-    justify-content: space-between;
-        align-items: stretch;
-    transform: translate(-50%, -50%)
-    
+    background-color: tomato red;
+    color: azure;
+  }
 
-        
-}
+
 
 
 
