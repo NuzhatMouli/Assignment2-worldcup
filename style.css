@@ -92,16 +92,25 @@ width:20%;
     padding: 30px 30px 20px 20px;
     text-align: center;
     gap: 15px;
-  border-radius: 5px;}
+  border-radius: 5px;
+}
 
-
+    
 .nav-button {
 background-image: linear-gradient(red, tomato);
     text-decoration: none;
     margin: 5px 5px 5px 5px;
     padding:5px 5px 5px 5px;
-    color: azure;
+    border-radius: 7px;
+
   }
+  .nav-button a {
+      text-decoration: none;
+    color: azure;
+    font-weight: 700;
+font-size: 18px;}
+
+
 
   
 
