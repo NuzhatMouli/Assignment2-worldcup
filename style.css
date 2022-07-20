@@ -78,6 +78,8 @@ body{
         color: #272727;
     
 }
+
+/* Navigation starts */
 .container-2{
     display: flex;
 flex-direction:column;
@@ -92,11 +94,16 @@ width:20%;
     gap: 15px;
   border-radius: 5px;}
 
+
 .nav-button {
+background-image: linear-gradient(red, tomato);
     text-decoration: none;
-    background-color: tomato red;
+    margin: 5px 5px 5px 5px;
+    padding:5px 5px 5px 5px;
     color: azure;
   }
+
+  
 
 
 
