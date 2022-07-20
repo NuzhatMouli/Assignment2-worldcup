@@ -110,7 +110,13 @@ background-image: linear-gradient(red, tomato);
     font-weight: 700;
 font-size: 18px;}
 
+.nav-button:hover {
+    backgroung-image: (green, greenyellow);
+}
 
+.nav-button a:hover {
+    color: black;
+}
 
   
 
@@ -124,16 +130,23 @@ font-size: 18px;}
 
 /* ----Footer Section Starts----->> */
 
-.footer-sec {
-    text-align: center;
-    background-color: #272727;
-    color:white;
-    padding: 10px;
-width: 85%;
-    height: 200px;
-    margin-top: 90px;
+.footer-container{
+background-color: black;
+margin-top: 90px;
     margin-left: 100px;
     margin-right: 120px;
+    width:85%;
+    border-radius: 5px;
+    padding: 10px;
+    height: 200px;
+}
+
+.footer-sec {
+    text-align: center;
+    
+    color:white;
+   
+    
 }
 
     ;
