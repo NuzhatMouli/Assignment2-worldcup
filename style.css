@@ -1,12 +1,15 @@
 body{
+
+    /*>>Common Styles Starts Here>> */
     font-family: 'Roboto', sans-serif;
-    background-color:whitesmoke;
+    background-color:aliceblue;
     margin: 0;
     padding:0;
 }
+/*>>Common Styles Ends Here>> */
 
 /* >> Top Banner Portion Starts Here>> */
-.container{
+.banner {
     background-color: black;
     display: flex;
     flex-direction: row-reverse;
@@ -17,138 +20,182 @@ body{
     margin-top: 95px;
     margin-left: 100px;
     margin-right: 120px;
-    shadow:(0px 4px 4px rgba(0, 0, 0, 0.25));
+    shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
     image-orientation: right;
 }
-.top-banner{
+.top-banner {
     width: 40%;
     position: relative;
-    right:2%;
-    padding:5px;
+    right: 2%;
+    padding: 5px;
 }
+
 .header-1 {
     position: absolute;
-    top: 160px; ;
+    top: 160px;
+    ;
     left: 28%;
     transform: translate(-50%, -50%);
     font-size: 370%;
-    margin-top: 100px;;
-    color: azure}
+    margin-top: 100px;
+    ;
+    color: azure
+}
 
-        .paragraph-1 {
-            position: relative;
-            top: 103%;
-            right: 60px;
-            transform: translate(-50%, -50%);
-            font-size: medium;
-            color: azure;
-            font-weight: 550;
-        }
-        
-        .button{
-            display: flex;
-            flex-direction: row;
-        }
+.paragraph-1 {
+    position: relative;
+    top: 103%;
+    right: 60px;
+    transform: translate(-50%, -50%);
+    font-size: medium;
+    color: azure;
+    font-weight: 550;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+}
+
 .link-button {
     position: absolute;
     text-decoration: none;
-    justify-content:space-between;
+    justify-content: space-between;
     align-content: flex-start;
     Top: 80%;
-    right:820px;
+    right: 820px;
     font-size: larger;
     transform: translate(-50%, -50%);
     background-image: linear-gradient(rgba(166, 9, 9, 0.865), rgb(235, 16, 16));
     color: white;
-    padding: 10px 45px;
+    padding: 15px 45px;
     border-radius: 2px;
     font-size: medium;
 }
+
 .play {
     position: absolute;
     display: flex;
     flex-direction: row;
     margin-left: 27%;
-    top:79%;
+    top: 79%;
     left: auto;
     width: 0
 }
-.button :hover{
-    background-color:lightsteelblue;
-        color: #272727;
-    
-}
 
-/* Navigation starts */
-.container-2{
-    display: flex;
-flex-direction:column;
-background-color: black;
-width:20%;
-    margin-left: 8%;
-    margin-top: 5%;
-    margin-right: 8%;
-    margin-bottom: 5%;
-    padding: 30px 30px 20px 20px;
-    text-align: center;
-    gap: 15px;
-  border-radius: 5px;
-}
-
-    
-.nav-button {
-background-image: linear-gradient(red, tomato);
-    text-decoration: none;
-    margin: 5px 5px 5px 5px;
-    padding:5px 5px 5px 5px;
-    border-radius: 7px;
-
-  }
-  .nav-button a {
-      text-decoration: none;
-    color: azure;
-    font-weight: 700;
-font-size: 18px;}
-
-.nav-button:hover {
-    backgroung-image: (green, greenyellow);
-}
-
-.nav-button a:hover {
+.button :hover {
+    background-color: lightsteelblue;
     color: black;
+
 }
 
-  
+/*>> Blogs section Starts Here>>> */
+        .blogs-section {
+            display: flex;
+            margin-top: 7%;
+            margin-left: 100px;
+            margin-right: 120px;
+        }
+    
+        .pages-link-box {
+            display: flex;
+            flex-direction: column;
+            width: 55%;
+            height: 50%;
+            background: black;
+            border-radius: 10px;
+            background-color: black;
+            justify-content: center;
+            align-items: center;
+        }
+        .pages-link {
+            width: 220px;
+            height: 52px;
+            background-color: whitesmoke;
+            text-align: center;
+            margin-top: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 7px;
+            margin: 13% 0;
+            cursor: pointer;
+        }
 
-
-
-
-
-
-
-
-
-/* ----Footer Section Starts----->> */
-
-.footer-container{
-background-color: black;
-margin-top: 90px;
-    margin-left: 100px;
-    margin-right: 120px;
-    width:85%;
-    border-radius: 5px;
-    padding: 10px;
-    height: 200px;
+    
+        .pages-link a {
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 700;
+            color: rgba(0, 0, 0, 0.578);
+        }
+    
+        .orange-background {
+            background-color: orangered;
+        }
+    
+        .orange-background a {
+            color: white;
+            font-style: italic;
+        }
+    
+        .blogs {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            margin-left: 2%;
+        }
+    
+        .blog {
+            border: 1px solid lightgray;
+            border-radius: 8px;
+        }
+    
+        .blog .blog-thumbnail img {
+            /* width: 100%; */
+            width: 312px;
+            border-radius: 10px 10px 0px 0px;
+    
+        }
+    
+        .blog-details {
+            padding: 15px;
+        }
+    
+        .blog-button button {
+            width: 100px;
+            height: 32px;
+            font-size: 16px;
+            color: #161616;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            box-shadow: 10px 10px 10px lightgray;
+    
+        }
+    
+        .blog-info p {
+            font-weight: 600;
+            font-size: 18px;
+            color: #161616;
+        }
+    
+        .blog-icons {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
 }
-
+/* ----Footer Section Starts Here----->> */
 .footer-sec {
     text-align: center;
-    
-    color:white;
-   
-    
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 85%;
+    height: 200px;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: 120px;
 }
-
-    ;
-}
-/* ----Footer Section Ends----->> */
